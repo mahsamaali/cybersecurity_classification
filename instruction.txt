@@ -1,0 +1,29 @@
+
+
+for installing packages :
+
+python -m pip install \
+pandas==2.2.2 \
+pre-commit==3.8.0 \
+loguru==0.7.2 \
+datasets==2.20.0 \
+transformers==4.43.3 \
+scikit-learn==1.5.1 \
+tqdm==4.66.4 \
+torch==2.4.0 \
+evaluate==0.4.2 \
+nltk==3.8.1 \
+accelerate==0.33.0 \
+tensorboardX==2.6.2.2 \
+pytest \
+pytest-cov
+
+
+
+for run the code :
+PYTHONPATH=. python classifier/AutoModelForSeq2SeqLM/flan-t5-finetuning.py
+
+PYTHONPATH=. python classifier/AutoModelForSequenceClassification/flan-t5-finetuning.py
+
+
+PYTHONPATH=. python evaluate_model2.py
