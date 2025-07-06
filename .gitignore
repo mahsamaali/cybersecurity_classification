@@ -167,3 +167,5 @@ verify_cyber_security.ipynb
 *.pt
 *.safetensors
 checkpoint-*/
+flan-t5-small-cybersecurity-text-classification/
+flan-t5-small-cybersecurity-text-classification1/
