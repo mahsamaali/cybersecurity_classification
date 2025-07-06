@@ -163,3 +163,7 @@ data/.DS_Store
 .vscode/
 verify_cyber_security.ipynb
 /myenv
+.myenv
+*.pt
+*.safetensors
+checkpoint-*/
