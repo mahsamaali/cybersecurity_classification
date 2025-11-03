@@ -19,7 +19,7 @@ torch = "2.4.0"
 evaluate = "0.4.2"
 nltk = "3.8.1"
 accelerate = "0.33.0"
-tensorboardX = "2.6.2.2"
+tensorboardX = "2.6.4"
 
 [tool.poetry.group.test.dependencies]
 pytest = "*"
